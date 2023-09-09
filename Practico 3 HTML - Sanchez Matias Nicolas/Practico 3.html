@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pedido Hamburguesa</title>
+</head>
+
+<body>
+    <main>
+        <form action="practica.html" method="get">
+            <h1>¡ HAGA SU PEDIDIDO !</h1>
+            <p><label>Seleccione el tipo de hamburguesa
+                    <select name="tipo de hamburguesa">
+                        <option value="1">Carne Vacuna</option>
+                        <option value="2">Carne de Pollo</option>
+                        <option value="3">Vegetariana</option>
+                    </select>
+                </label></p>
+            <p><label>Cuantas hamburguesas desea? <input type="text" pattern="[0-9]"></label></p>
+            <p>Selecciones el punto de cocción<br><label>Poco Cocida<input type="range" min="1" max="3">Bien
+                    Cocida</label></p>
+            <p>¿Que ingrediente desea agregar?<br><label><input type="checkbox">Lachuga<input
+                        type="checkbox">Tomate<input type="checkbox">Cebolla</label></p>
+            <p>¿Desea agregarle queso?<br><input type="radio">Si<input type="radio">No</p>
+            <label for="aderezo">¿Que aderezo desea agregar?<datalist id="aderezo">
+                <option value="Mayonesa"></option>
+                <option value="Ketchup"></option>
+                <option value="Mostaza"></option>
+            </datalist><input list="aderezo" id="aderezo" name="aderezo"></label>
+            <P>¿Desea dejarnos algun comentario?<br><textarea cols="40" rows="4" placeholder="¿Quieres dejarnos una sugerencia?"></textarea></P>
+            <label><input type="submit" value="Enviar Pedido"></label>
+        </form>
+    </main>
+</body>
+
+</html>

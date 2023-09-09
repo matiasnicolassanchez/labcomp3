@@ -1,0 +1,63 @@
+@font-face {
+    font-family: "Simpsonfont";
+    src: url(fonts\Simpsonfont.ttf);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+img {
+    width: 90px;
+    height: 140px;
+}
+
+table {
+    table-layout: fixed;
+    width: 100%;
+    border-collapse: separate;
+    border: 3px solid yellow;
+}
+
+caption {
+    font-family: 'Simpsonfont';
+    font-weight: bold;
+    font-size: 50px;
+    color: #f7d122;
+    text-shadow: black -4px 3px;
+}
+
+td {
+    padding: 20px;
+    opacity: 0.6;
+}
+
+tr {
+    text-align: center;
+}
+
+th>h2 {
+    font-family: 'Simpsonfont';
+    font-weight: bold;
+    color: #f7d122;
+    text-shadow: black -3px 2px;
+}
+
+tr:nth-child(odd) {
+    background-image: linear-gradient(to left, #b34302c0, rgb(209, 191, 157));
+}
+
+tr:nth-child(even) {
+    background-image: linear-gradient(to top, #b9a80cad, rgb(255, 255, 255));
+}
+
+td:hover {
+    opacity: 1;
+    font-weight: bold;
+    font-variant-caps: small-caps;
+}
+
+caption {
+    background-color: white;
+}

@@ -1,0 +1,262 @@
+/* === IMPORTANTE ===================================================
+   No modificar estos estilos, ya que son imprescindibles para
+   que la página se vea correctamente.
+   ================================================================== */
+* {
+  margin: 0;
+  /*-- Quitamos margenes */
+  padding: 0;
+  /*-- Quitamos relleno o padding */
+}
+
+/*-- Aplicamos estilos a las listas-----------------------------------*/
+ul,
+ul li {
+  list-style: none;
+  /*Quitamos las viñetas de las listas*/
+}
+
+.clear {
+  clear: both;
+}
+
+img {
+  border: none;
+}
+
+/*-- Layout ----------------------------------------------------------*/
+body {
+  width: 100%;
+
+  margin: 0 auto;
+}
+
+.cabecera,
+.menu,
+.lateral,
+.contenido,
+.principal,
+.secundario,
+footer {
+  border: 2px solid;
+  border-color: gray;
+}
+
+.cabecera {
+  clear: both;
+}
+
+.lateral {
+  float: left;
+  width: 20%;
+}
+
+.contenido {
+  float: right;
+  width: 78%;
+}
+
+.contenido .principal {
+  float: left;
+  width: 74%;
+}
+
+.contenido .secundario {
+  float: right;
+  width: 20%;
+}
+
+footer {
+  clear: both;
+}
+
+/*-- Cabecera --------------------------------------------------------*/
+.cabecera .logo {
+  float: left;
+}
+
+.cabecera .menu {
+  float: right;
+}
+
+/*-- Menu ------------------------------------------------------------*/
+.menu ul.menu_principal li {
+  display: inline;
+  float: left;
+}
+
+/*-- Seccián Principal -----------------------------------------------*/
+.contenido .principal .articulo img {
+  width: 100px;
+  float: left;
+}
+
+/*-- Pie de página ---------------------------------------------------*/
+.pie .enlaces {
+  float: left;
+}
+
+.pie .copyright {
+  float: right;
+}
+
+/* === IMPORTANTE ===================================================
+     A partir de acá, se pueden aáadir todos los estilos propios que 
+     sean necesarios.
+     ================================================================== */
+@font-face {
+  font-family: Roboto;
+  src: url(fonts);
+}
+
+.cabecera {
+  padding: 1em;
+}
+
+.menu {
+  padding: 0.5em;
+  margin-bottom: 0.5em;
+}
+
+.noticias .publicidad .principal .secundario {
+  padding: 0.5em;
+}
+
+.pie {
+  margin-top: 1em;
+}
+
+.articulo {
+  padding: 1em;
+}
+
+.articulo img {
+  margin: 0.5em;
+}
+
+.publicidad {
+  padding-top: 1em;
+}
+
+.menu_principal li {
+  margin: 0.1em;
+}
+
+.cabecera,
+.lateral,
+.menu,
+.principal,
+.secundario,
+.contenido {
+  border: none;
+}
+
+.menu {
+  border-bottom: 1px #004c99;
+}
+
+.noticias {
+  border: 1px #c5c5c5;
+}
+
+.publicidad {
+  border: dotted #cc6600;
+}
+
+.secundario {
+  border: 1px #cc6600;
+}
+
+.pie {
+  border-top: 1px color(#c5c5c5);
+  border-bottom: 1px color(#c5c5c5);
+  padding: 10px;
+}
+
+* {
+  font: 'Roboro-Medium' #000 0.94em;
+  line-height: 1.2;
+}
+
+.articulo h2 {
+  color: #cc6600;
+  font-size: 1.6em;
+  line-height: 1.2;
+  margin-bottom: 0.3em;
+}
+
+.menu_principal li {
+  margin-left: 1em;
+  margin-right: 1em;
+}
+
+.menu_principal a {
+  color: #4756df;
+  font: 1.3em bolder;
+}
+
+.menu_principal a:hover {
+  color: #ff7235;
+}
+
+.fecha {
+  color: #999;
+}
+
+.noticias h3 {
+  color: #003366;
+}
+
+.noticias {
+  background-color: #f7f7f7;
+}
+
+.publicidad {
+  background-color: #fff7ce;
+}
+
+.publicidad p {
+  color: #555;
+}
+
+.publicidad a {
+  color: #cc6600;
+}
+
+.articulo a {
+  color: #cc6600;
+}
+
+.articulo p {
+  margin-top: 0.3em;
+  margin-bottom: 0.3em;
+}
+
+.secundario h2 {
+  color: white;
+  background-color: #cc6600;
+  padding: 5px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.secundario a {
+  color: blue;
+}
+
+.pie {
+  background-color: #f7f7f7;
+}
+
+.pie a {
+  color: blue;
+}
+
+.logo {
+  color: #4756df;
+  font: 1.3em bolder;
+}
+
+.articulo p {
+  text-align: justify;
+}

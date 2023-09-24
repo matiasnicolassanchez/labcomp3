@@ -32,7 +32,7 @@ body {
    left: 0;
 }
 .view .mask {
-   background-color: rgba(219,127,8, 0.7);
+   background-color: rgba(255, 166, 0, 0.808);
 }
 .view img {
    display: block;
@@ -73,3 +73,68 @@ body {
 
 /* ANIMACIONES Y TRANSICIONES */
 
+.view .mask {
+   background-color: transparent;
+   transition: all 0.5s ease;
+}
+h2, p, a {
+   opacity: 0;
+}
+
+.view:hover {
+   transform: scale(1.1);
+   transition-duration: 1s;
+}
+
+.mask:hover{
+   background-color: rgba(255, 166, 0, 0.808);
+   transition-property:background-color;
+   transition-duration: 1s;
+}
+
+.mask:hover p{
+   opacity: 1;
+   animation-duration: 1s;
+   animation-name: parrafo;
+}
+
+.mask:hover h2{
+   opacity: 1;
+   animation-duration: 1s;
+   animation-name: titulo;
+}
+
+.mask:hover a {
+   opacity: 1;
+   animation-duration: 1s;
+   animation-name: readmore;
+}
+@keyframes titulo {
+   0%{
+      transform: translateY(-100px);
+   }
+   to{
+      transform: translateY(0px);
+   }
+}
+
+@keyframes parrafo {
+   0%{
+      transform: translateX(-100px);
+   }
+   to{
+      transform: translateX(0px);
+   }
+}
+
+@keyframes readmore {
+   from{
+      opacity: 0;
+   }
+   50%{
+      opacity: 0.5;
+   }
+   to{
+      opacity: 1;
+   }
+}

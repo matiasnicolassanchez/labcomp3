@@ -118,16 +118,16 @@ footer {
   margin-bottom: 0.5em;
 }
 
-.noticias .publicidad .principal .secundario {
+.noticias, .publicidad, .principal, .secundario {
   padding: 0.5em;
 }
 
 .pie {
-  margin-top: 1em;
+  padding: 0.5em 0 0.5em 0;
 }
 
 .articulo {
-  padding: 1em;
+  margin-bottom: 1em;
 }
 
 .articulo img {
@@ -135,47 +135,46 @@ footer {
 }
 
 .publicidad {
-  padding-top: 1em;
+  margin-top: 1em;
+}
+
+.pie {
+  margin-top: 1em;
 }
 
 .menu_principal li {
   margin: 0.1em;
 }
 
-.cabecera,
-.lateral,
-.menu,
-.principal,
-.secundario,
-.contenido {
+* {
   border: none;
 }
 
 .menu {
-  border-bottom: 1px #004c99;
+  border-bottom: 1px solid #004C99;
 }
 
 .noticias {
-  border: 1px #c5c5c5;
+  border: 1px solid #c5c5c5;
 }
 
 .publicidad {
-  border: dotted #cc6600;
+  border: dashed 1px #cc6600;
 }
 
 .secundario {
-  border: 1px #cc6600;
+  border: 1px solid #cc6600;
 }
 
 .pie {
-  border-top: 1px color(#c5c5c5);
-  border-bottom: 1px color(#c5c5c5);
-  padding: 10px;
+  border: 1px 0 1px 0 #c5c5c5;
+  margin-top: 10px;
 }
 
-* {
-  font: 'Roboro-Medium' #000 0.94em;
-  line-height: 1.2;
+html {
+  font-family: 'Roboto-Medium';
+  font-size: 0.94em;
+  line-height: 1.2;  
 }
 
 .articulo h2 {
@@ -186,8 +185,7 @@ footer {
 }
 
 .menu_principal li {
-  margin-left: 1em;
-  margin-right: 1em;
+  margin: 0 1em 0 1em;
 }
 
 .menu_principal a {
@@ -197,6 +195,7 @@ footer {
 
 .menu_principal a:hover {
   color: #ff7235;
+  border-bottom: 1px;
 }
 
 .fecha {
@@ -212,14 +211,10 @@ footer {
 }
 
 .publicidad {
+  color: #555;
   background-color: #fff7ce;
 }
-
-.publicidad p {
-  color: #555;
-}
-
-.publicidad a {
+.publicidad a{
   color: #cc6600;
 }
 
@@ -228,16 +223,17 @@ footer {
 }
 
 .articulo p {
-  margin-top: 0.3em;
-  margin-bottom: 0.3em;
+  margin: 0.3em 0 0.3em 0;
 }
 
 .secundario h2 {
   color: white;
+}
+
+.secundario h2{
   background-color: #cc6600;
   padding: 5px;
-  margin-top: 10px;
-  margin-bottom: 10px;
+  margin: 10px 0 10px 0;
 }
 
 .secundario a {
@@ -252,7 +248,7 @@ footer {
   color: blue;
 }
 
-.logo {
+.logo h1 {
   color: #4756df;
   font: 1.3em bolder;
 }

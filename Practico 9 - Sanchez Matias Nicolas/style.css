@@ -1,0 +1,55 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+html{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+    font-weight: bold;
+    color: white;
+    text-shadow: 1px 1px 2px black;
+}
+body{
+   display:flex; 
+}
+main{
+    margin: 10px auto;
+    border: 2px solid red;
+    flex: 0  1 1004px;
+    height: 424px;
+}
+section{
+    padding: 4px;
+}
+
+section:nth-child(1){
+    background-color: green
+}
+section:nth-child(2){
+    background-color: blue;
+}
+section:nth-child(3){
+    background-color: violet;
+}
+section:nth-child(4){
+    background-color:black;
+}
+section:nth-child(5){
+    background-color: yellow;
+}
+section:nth-child(6){
+    background-color: orange
+}
+section:nth-child(7){
+    background-color: red;
+}
+section:nth-child(8){
+    background-color: grey;
+}
+section:nth-child(9){
+    background-color: greenyellow;
+}
+section:nth-child(10){
+    background-color: yellowgreen;
+}

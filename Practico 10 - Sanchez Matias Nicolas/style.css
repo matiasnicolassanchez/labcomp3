@@ -1,0 +1,13 @@
+.yellow-frogs{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    flex: 1 1 ;
+}
+
+.green-red-frogs{
+    display:flex;
+    flex-direction: column-reverse;
+    align-items: flex-end;
+    flex: 1 1 ;
+}

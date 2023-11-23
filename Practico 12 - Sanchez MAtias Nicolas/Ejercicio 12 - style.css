@@ -1,0 +1,45 @@
+@font-face {
+    font-family: Merriweather;
+    src: url(font\Merriweather-Regular.ttf)
+}
+@font-face {
+    font-family: Open-Sans;
+    src: url(font\OpenSans.ttf)
+}
+
+* {
+    font: Open-Sans;
+}
+h1, h2 {
+    font: Merriwearher;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #000;
+    color: #fff;
+    height: 10vh;
+}
+
+#menu li {
+    display: inline;
+    margin: 0 10px;
+}
+
+#menu a {
+    text-decoration: none;
+    color: #fff;
+}
+
+
+#inicio {
+    display: flex;
+    flex-direction: column;
+    height: 90vh;
+}
+#inicio h1{
+    align-items: center;
+}
+

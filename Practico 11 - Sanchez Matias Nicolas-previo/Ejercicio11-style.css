@@ -1,0 +1,117 @@
+@font-face {
+    font-family: Merrywheather;
+    src: url(font\Merriweather-Regular.ttf);
+}
+
+@font-face {
+    font-family: Open-Sans;
+    src: url(font\OpenSans.ttf);
+}
+
+html {
+    font: Open-Sans 10px;
+}
+
+h1, h2, h4 {
+    font: Merrywheather 2.5rem;
+    text-transform: uppercase;
+    padding: 1rem 0 1rem;
+}
+
+p {
+    font: 1.6rem;
+}
+
+header, footer {
+    background-color: gray;
+}
+
+header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    min-height: 10vh;
+    padding: 1rem;
+}
+
+header h1 {
+    color: white;
+}
+
+header li{
+    display: inline-block;
+    list-style: none;
+    padding-right: 0.5rem;
+}
+
+a {
+    color: white;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+
+#inicio, #servicios, #acercade, #contacto {
+    min-height: 50vh;
+    padding: 0.5rem;
+    text-align: center;
+}
+
+#inicio, #acercade {
+    background-color: beige;
+}
+
+section img {
+    width: 40px;
+    height: 40px;
+}
+
+#servicios #img{
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+}
+
+#img div {
+    border: solid black 1px;
+    padding: 5rem;
+    margin: 0.5rem;
+}
+
+#contacto #formulario {
+    margin: 0 auto;
+    padding-top: 5rem;
+    width: 50%;
+}
+
+#formulario label {
+    display: inline-block;
+    width: 100%;
+    text-align: left;
+    margin-bottom: 0.8rem;
+}
+
+#formulario input, textarea{
+    display: inline-block;
+    width: 100%;
+    border-radius: 0.4rem;
+    padding: 0.6rem 1.2rem;
+}
+
+#formulario div {
+    font-size: 1.6rem;
+    margin-bottom: 1.6rem;
+}
+
+footer img {
+    height: 40px;
+    width: 40px;
+}
+
+footer { 
+    margin-top: 0.5rem;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}

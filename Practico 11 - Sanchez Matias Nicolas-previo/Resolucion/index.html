@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>HTML5 Y CSS3: Practico Parcial</title>
+</head>
+<body>
+
+    <header>
+        <h1>Nombre Empresa</h1>
+        <nav>
+            <ul>
+                <li><a href="#Inicio">Inicio</a></li>
+                <li><a href="#Servicios">Servicios</a></li>
+                <li><a href="#Acercade">Acerca de</a></li>
+                <li><a href="#Contacto">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section id="Inicio">
+            <h1>Conectate con el mundo</h1>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quibusdam voluptatibus neque obcaecati quisquam numquam, facere possimus iusto maiores aliquam, quod laudantium rerum velit iure enim accusamus sapiente praesentium totam distinctio.</p>
+        </section>
+        
+        <section id="Servicios">
+            <h2 class="titulo2">Servicios</h2>
+            <div class="servicios-row">
+                <div class="servicio-box">
+                    <img src="./img/tower-cell-solid.svg" alt="Torre de mmicroondas">
+                    <h4>Enlaces inálambricos</h4>
+                </div>
+                <div class="servicio-box">
+                    <img src="./img/satellite-solid.svg  " alt="Internet satelital">
+                    <h4>Internet satelital</h4>
+                </div>
+                <div class="servicio-box">
+                    <img src="./img/video-solid.svg " alt="Video vigilancia">
+                    <h4>Video vigilancia</h4>
+                </div>
+            </div>
+
+        </section>
+
+        <section id="Acercade">
+            <h2 class="titulo2">Acerca de nosotros</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima, eveniet dolores? Fugiat veritatis necessitatibus quia doloribus. Unde obcaecati expedita consequuntur ipsam consequatur. Ullam unde veniam, sed aliquid delectus aperiam ex?</p>
+
+        </section>
+        <section id="Contacto">
+            <h2 class="titulo2">Contacto</h2>
+            <form action="" method="get">
+                <div class="form-group">
+                    <label for="nombre">Nombre</label>
+                    <input type="text" name="nombre" id="nombre" class="form-controls">
+                </div>
+                <div class="form-group">
+                    <label for="email">Email</label>
+                    <input type="email" name="email" id="email" class="form-controls">
+                </div>
+                <div class="form-group">
+                    <label for="mensaje">Mensaje</label>
+                    <textarea name="mensaje" id="mensaje" cols="30" rows="10" class="form-controls"></textarea>
+                </div>
+                <input type="submit" value="Contáctanos" class="form-controls">
+
+            </form>
+        </section>
+    </main>
+    <footer>
+        <h4>Seguinos en nuestras redes sociales</h4>
+        <div class="redes">
+            <img src="./img/square-facebook.svg" alt="Facebook" >
+            <img src="./img/square-x-twitter.svg" alt="Twitter">
+            <img src="./img/square-instagram.svg" alt="Instagram">
+        </div>
+
+    </footer>
+
+</body>
+</html>

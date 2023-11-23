@@ -1,0 +1,59 @@
+main {
+    display: flex;
+}
+/*Enunciado "a"*/
+/*main {
+    align-content: stretch;
+}*/
+
+/*Enunciado "b"*/
+/*main {
+    justify-content: space-around;
+}*/
+
+/*Enunciado "c"*/
+/*main {
+    align-items: first baseline;
+    justify-content: space-around;
+}*/
+
+/*Enunciado "d"*/
+/*main {
+    align-items: first baseline;
+    flex-direction: row-reverse;
+}
+main section {
+    flex-basis: 10%;
+}*/
+
+/*Enunciado "e"*/
+/*main {
+    align-items: first baseline;
+    flex-direction: row-reverse;
+    flex-wrap: wrap;
+    align-content: space-between;
+    justify-content: space-between;
+}
+main section {
+    flex-basis: 33.3% ;
+    flex-grow: 0;
+    height: 20%;
+    align-items: stretch;
+}*/
+
+/*Enunciado "f"*/
+/*main {
+    align-items: first baseline;
+    flex-direction: row-reverse;
+    align-content: space-between;
+    flex-wrap: wrap;
+}
+
+section {
+    display: flex;
+    flex-basis: 33.3%;
+    height: 20%;
+    align-items: center;
+    justify-content: center;
+}*/
+

@@ -1,0 +1,130 @@
+@font-face {
+    font-family: Open-Sans;
+    src: url("./font/OpenSans.ttf");
+}
+@font-face {
+    font-family: Merrywheather;
+    src: url("./font/Merriweather-Regular.ttf");
+}
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html{
+    font-size: 10px;
+    font-family: Open-Sans;
+
+}
+
+h1, h2, h4 {
+    font-family: Merrywheather;
+    font-size: 2.5rem;
+    text-transform: uppercase;
+    padding: 1rem 0;
+
+}
+
+p{
+    font-size: 1.6rem;
+}
+
+
+header{
+    display:flex;
+    background-color: gray;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+    min-height: 10vh;
+}
+
+header h1{
+   color:white;
+}
+
+header li{
+    display:inline-block;
+    list-style: none;
+    padding-right: 0.5rem;
+}
+
+a{
+    text-decoration: none;
+    text-transform: uppercase;
+    color:white;
+    font-size: 1.6rem;
+}
+
+
+
+
+section img{
+  width: 4rem;
+  height: 4rem;
+  padding: 0.2rem;
+}
+
+section{
+    text-align: center;
+    padding: 0.5rem;
+    min-height: 50vh;
+
+}
+
+section:nth-child(odd){
+    background-color:beige ;
+}
+
+.servicios-row{
+    display:flex;
+    justify-content: space-around;
+    margin:0 auto;
+}
+
+.servicio-box{
+    flex: 1 1;
+    border: 1px solid grey;
+    padding: 5rem;
+    margin: 0.5rem;
+}
+/* Contacto */
+#Contacto form {
+    padding-top: 5rem;
+    width: 50%;
+    margin: 0 auto;
+}
+  
+form label {
+    display: inline-block;
+    width: 100%;
+    text-align: left;
+    margin-bottom: 0.8rem;
+}
+
+form .form-group {
+    margin-bottom: 1.6rem;
+    font-size: 1.6rem;
+  }
+  
+form .form-controls {
+    display: block;
+    width: 100%;
+    padding: 0.6rem 1.2em;
+    line-height: 1.5;
+    border-radius: 0.4rem;
+    font-size: 1.6rem;
+}
+
+/*Footer*/
+footer img{
+    width: 4rem;
+    height: 4rem;
+    padding: 0.2rem;
+}
+
+footer{
+    text-align: center;
+    background-color: gray;
+    margin-top: 0.5rem;
+}
